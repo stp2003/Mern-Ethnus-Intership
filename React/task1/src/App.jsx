@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
         <div className="container">
-          <h1>Responsive Word Counter</h1>
+          <h1>Responsive Paragraph Word Counter</h1>
           <textarea placeholder='What is in your mind?' onChange={handleChange} name="para" id="para" spellCheck='false' rows="10"></textarea>
           <p>Word Count: {wordCount}</p>
         </div>
